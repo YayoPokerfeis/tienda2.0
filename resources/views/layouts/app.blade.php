@@ -7,8 +7,9 @@
     <title>@yield('title') - Laravel App</title>
     
     <!-- Tailwind CSS Link -->
-    <link rel="stylesheet" 
-    href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.0.1/tailwind.min.css">
+    <script src={{ asset('js/app.js') }} ></script>
+    <link href={{ asset('css/app.css') }} rel="stylesheet">
+ -
   </head>
   <body class="bg-gray-100 text-gray-800">
 
